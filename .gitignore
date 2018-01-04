@@ -1,3 +1,6 @@
-.DS_Store
-manual/node_modules
+**/.DS_Store
+**/node_modules
+
 manual/build
+contentful/public
+contentful/.env

@@ -1,5 +1,7 @@
 (function() {
-    fetch('/api/quote')
+    var url = '/api/quote';
+
+    fetch(url)
         .then(function(response) {
             return response.json();
         })
